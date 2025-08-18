@@ -1,8 +1,3 @@
-/*
-Adaptado de: https://lastminuteengineers.com/soil-npk-sensor-arduino-tutorial/
-Adaptado para ESP32 sem ModbusMaster por Leonam + ChatGPT
-*/
-
 #define RE 4   // Receiver Enable
 #define DE 5   // Driver Enable
 
