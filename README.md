@@ -25,6 +25,6 @@ Este projeto tem como objetivo monitorar parâmetros do solo, como umidade, pH, 
 
 Hardware: ESP32, sensor NPKPHCTH-S 7 em 1, mini bomba d’água, relé
 
-Software: Arduino IDE, Python (para análise e teste)
+Software: Arduino IDE (para análise e teste)
 
 Comunicação: Serial (ESP32 ↔ Sensor)
