@@ -1,13 +1,13 @@
 # SENSOR DE MONITORAMENTO DE SOLO PARA O CULTIVO DE OLIVEIRAS
 
 
-Descrição
+## Descrição
 
 Este projeto tem como objetivo monitorar parâmetros do solo, como umidade, pH, nutrientes (NPK) e temperatura, utilizando um ESP32 conectado a sensores específicos. O sistema permite a coleta de dados em tempo real, podendo ser utilizado em olivicultura de precisão, agricultura sustentável e outros projetos de monitoramento ambiental.
 
 ---
 
-Funcionalidades
+## Funcionalidades
 
 - Leitura de dados do sensor NPKPHCTH-S 7 em 1
 
@@ -21,7 +21,7 @@ Funcionalidades
 
 ---
 
-Tecnologias Utilizadas
+## Tecnologias Utilizadas
 
 Hardware: ESP32, sensor NPKPHCTH-S 7 em 1, mini bomba d’água, relé
 
