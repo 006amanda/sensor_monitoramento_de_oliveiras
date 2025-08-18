@@ -28,16 +28,6 @@ void loop() {
   Serial.print(umidade);
   Serial.println("%");
 
-  // Ativa a bomba se umidade < 20%
-  if (umidade < 20) {
-    Serial.println("Umidade baixa! Ligando a bomba...");
-    digitalWrite(PINO_RELE, LOW);   // Liga bomba
-    delay(1000);                    // Mantém ligada por 1 segundo
-    digitalWrite(PINO_RELE, HIGH);  // Desliga bomba
-    Serial.println("Bomba desligada.");
-
-    delay(5000); // Espera 5s antes de nova leitura (evita liga/desliga rápido)
-  } else {
-    delay(1000); // Faz leitura a cada 1s
+  delay(1000); // Faz leitura a cada 1s
   }
 }
